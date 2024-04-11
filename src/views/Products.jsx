@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import tshirtImage from "../images/tshirt.png";
-import jeansImage from "../images/jeans.png";
-import sneakersImage from "../images/shoes.png";
+import jeansImage from "../images/tshirt2.png";
+import sneakersImage from "../images/tshirt3.png";
 import "./Products.css";
 
 const Products = () => {
   const initialProducts = [
     { id: 1, name: "T-Shirt", price: 20, image: tshirtImage },
-    { id: 2, name: "Jeans", price: 30, image: jeansImage },
-    { id: 3, name: "Sneakers", price: 50, image: sneakersImage },
+    { id: 2, name: "T-Shirt", price: 30, image: jeansImage },
+    { id: 3, name: "T-Shirt", price: 50, image: sneakersImage },
   ];
 
   const [products] = useState(initialProducts);
